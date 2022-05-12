@@ -148,7 +148,7 @@ for step, batch in enumerate(data_loader):
     model_engine.step()
 ```
 
-配置JSON文件以启用或禁用DeepSpeed的相关功能：
+配置JSON文件：
 
 ```
 {
